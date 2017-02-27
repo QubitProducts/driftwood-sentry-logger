@@ -1,0 +1,19 @@
+{
+  "name": "driftwood-sentry-logger",
+  "version": "1.0.0",
+  "description": "A driftwood logger that reports to sentry.io",
+  "main": "index.js",
+  "repository": "git@github.com:QubitProducts/driftwood-sentry-logger.git",
+  "author": "Oliver Woodings <oliver.woodings@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "raven": "^1.1.2"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
