@@ -41,7 +41,7 @@ module.exports = function createSentryLogger (options) {
   return sentryLogger
 
   function sentryLogger (name, level, now, components) {
-    if (LEVELS.indexOf(level) < LEVELS.indexOf(options.level)) {
+    if (LEVELS.INDEX[level] < LEVELS.INDEX[options.level]) {
       return
     }
 
